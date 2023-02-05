@@ -25,7 +25,7 @@ public abstract class Shape : MonoBehaviour
     }
 
     //POLYMORPHISM. When implemented in each child class, it will print something different
-    public virtual void PrintData()
+    public virtual void PrintData()//ABSTRACTION
     {
         dataDisplay.text = "My name is " + name;
     }
