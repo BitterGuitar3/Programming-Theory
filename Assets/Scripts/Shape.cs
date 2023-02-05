@@ -5,8 +5,8 @@ using TMPro;
 
 public abstract class Shape : MonoBehaviour
 {
-    protected string name { get; set; }
-    protected string className { get; set; }
+    protected string name { get; set; } //Encapulation
+    protected string className { get; set; } //Encapulation
     public TextMeshProUGUI dataDisplay;
 
     private void Start()
